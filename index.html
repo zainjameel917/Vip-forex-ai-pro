@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#101827">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="VIP Forex AI">
+  <link rel="manifest" href="/manifest.webmanifest">
+  <link rel="stylesheet" href="/styles.css">
+  <title>VIP Forex AI Pro</title>
+</head>
+<body>
+  <main class="app">
+    <header class="top">
+      <div><div class="eyebrow">VIP EDITION · REAL FX ONLY</div><h1>VIP Forex <span>AI Pro</span></h1><p class="muted">Market scanner · 24/5 schedule</p></div>
+      <div class="crown">♛</div>
+    </header>
+    <section class="statusbar"><span class="dot"></span><span id="connection">No live data connection</span><span class="tag">OTC OFF</span></section>
+    <section class="metrics">
+      <div class="panel"><small>TIMEFRAMES</small><strong>1M / 5M</strong></div>
+      <div class="panel"><small>MODE</small><strong>High filter</strong></div>
+      <div class="panel"><small>PLATFORM</small><strong>Quotex</strong></div>
+    </section>
+    <section class="section-head"><h2>Currency scanner</h2><span class="muted">8 pairs</span></section>
+    <section id="pairs" class="pairs"></section>
+    <section class="notice">
+      <strong>Signal safety is ON</strong>
+      <p>No BUY/SELL call is shown until a live feed is connected, timestamps are fresh, and the feed is checked against the Quotex quote. This preview does not contain live prices or trading advice.</p>
+    </section>
+    <section class="actions">
+      <button id="notify">Enable notifications</button>
+      <button id="test" class="secondary">Test notification</button>
+    </section>
+    <footer>Educational prototype · No trade execution · No guaranteed win rate</footer>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
